@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: rgb(104, 104, 104);
+}
+
+.header {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 250px
+}
+
+h2 {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+article {
+    font-size: 1.2em;
+    font-weight: 200;
+    width: 600px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+hr {
+    width: 600px;
+    border: 2px solid rgb(179, 179, 179);
+}
+
+.recipe {
+    font-size: 1em;
+    font-weight: 100;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.recipe > img {
+    width: 300px;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:before { 
+    content:"- ";
+}
+
+ol {
+    list-style-position:inside;
+}
